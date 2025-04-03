@@ -46,6 +46,7 @@ def rag_chatbot(user_query):
 
 # Step 5: Test the Chatbot
 if __name__ == "__main__":
-    user_query = "What is RAG and how is it used in NLP?"
+    # Pause for user input
+    user_query = input("Please enter your query: ")
     response = rag_chatbot(user_query)
     print("Chatbot Response:", response)
